@@ -33,3 +33,7 @@ Una aplicacion que sirve para llevar el registro de herramientas prestadas en un
 | Herramienta       | Versión                         |
 |-------------------|----------------------------------------|
 | Python            | 3.14.2                                  |
+
+## 🧠 Autor 
+
+Este proyecto fue completamente diseñado, modelado y desarrollado por Oscar Rodriguez (oscardavidrp2009@gmail.com) como parte de su portafolio profesional
