@@ -1,0 +1,11 @@
+
+[25/02/2026 12:28:07]
+ERROR: el administrador trato de buscar un prestamo inexistente
+[25/02/2026 12:28:07]
+ERROR: el administrador trato de buscar un prestamo inexistente
+[25/02/2026 12:28:07]
+ERROR: el administrador trato de buscar un prestamo inexistente
+[25/02/2026 12:28:07]
+ERROR: el administrador trato de buscar un prestamo inexistente
+[25/02/2026 12:28:20]
+ERROR: el administrador trato de eliminar un prestamo inexistente

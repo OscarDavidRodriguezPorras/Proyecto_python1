@@ -1,0 +1,29 @@
+[
+     {
+          "Id": 1,
+          "Herramienta": "gato",
+          "Cantidad": 23,
+          "Categoria": "Construccion",
+          "Estado": "Fuera de servicio",
+          "Valor": 45000,
+          "Fecha": "2026-02-20 12:44:59"
+     },
+     {
+          "Id": 2,
+          "Herramienta": "prueba",
+          "Cantidad": 0,
+          "Categoria": "Jardineria",
+          "Estado": "Activa",
+          "Valor": 30000,
+          "Fecha": "2026-02-20 12:45:37"
+     },
+     {
+          "Id": 3,
+          "Herramienta": "pala",
+          "Cantidad": 13,
+          "Categoria": "Construccion",
+          "Estado": "Activa",
+          "Valor": 30000,
+          "Fecha": "2026-02-23 10:47:56"
+     }
+]

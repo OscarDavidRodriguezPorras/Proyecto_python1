@@ -1,0 +1,21 @@
+[
+     {
+          "Id": 1,
+          "Nombre": "david",
+          "Apellido": "dm",
+          "Telefono": 1111111111,
+          "Direccion": "calle",
+          "Tipo": "Usuario",
+          "Fecha": "2026-02-20 12:47:14"
+     },
+     {
+          "Id": 2,
+          "Nombre": "oscar",
+          "Apellido": "rodriguez",
+          "Telefono": 3219727054,
+          "Direccion": "fbhujsdbgfhys",
+          "Tipo": "Administrador",
+          "Fecha": "2026-02-23 10:47:00"
+     }
+]
+
