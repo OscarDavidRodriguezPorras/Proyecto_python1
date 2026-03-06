@@ -27,7 +27,7 @@ def registrar_prestamo():
         if elemento["Id"]==id_h and elemento["Estado"]=="Activa":
             nombre_herramienta=herramienta[id_h-1]["Herramienta"]
             cantidad_h=herramienta[id_h-1]["Cantidad"]
-
+            valor_herramienta=herramienta[id_h-1]["Valor"]
             existe_h=True
     if existe_h==False:
         print("La herramienta no existe")
@@ -53,6 +53,7 @@ def registrar_prestamo():
     fecha_creacion=datetime.now()
     fecha_creacion_j=datetime.now().strftime("%d/%m/%Y, %H:%M:%S")
     dias_prestamo=int(input("Ingrese cantidad de dias de prestamo: "))
+    valor_prestamo=valor_herramienta*dias_prestamo
     fecha_final_prestamo=fecha_creacion+timedelta(days=dias_prestamo)
     if datetime.now()<fecha_final_prestamo:
         estado_prestamo=("Activo")
@@ -69,7 +70,8 @@ def registrar_prestamo():
         "Fecha_c":fecha_creacion_j,
         "Fecha_f":str(fecha_final_prestamo),
         "Estado":estado,
-        "Es_prestamo":estado_prestamo
+        "Es_prestamo":estado_prestamo,
+        "Valor_prestamo":valor_prestamo
     }
     prestamos.append(nuevo_prestamo)
     guardar(ARCHIVO, prestamos)
@@ -91,6 +93,7 @@ def listar_prestamo():
             Fecha vencimiento prestamo:        {elemento["Fecha_f"]}
             Estado:                            {elemento["Estado"]}
             Estado prestamo:                   {elemento["Es_prestamo"]}
+            Valor del prestamo:                {elemento["Valor_prestamo"]}
     """)
         
 def act_prestamo():

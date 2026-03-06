@@ -20,7 +20,7 @@
      {
           "Id": 3,
           "Herramienta": "pala",
-          "Cantidad": 13,
+          "Cantidad": 8,
           "Categoria": "Construccion",
           "Estado": "Activa",
           "Valor": 30000,

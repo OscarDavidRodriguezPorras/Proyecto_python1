@@ -1,43 +1,13 @@
 [
      {
           "Id": 1,
-          "Usuario": "david",
-          "Herramienta": "prueba",
-          "Cantidad": 1,
-          "Fecha_c": "20/02/2026, 12:47:46",
-          "Fecha_f": "2026-02-25 12:47:46.933763",
-          "Estado": "Activo",
-          "Es_prestamo": "Activo"
-     },
-     {
-          "Id": 2,
-          "Usuario": "oscar",
-          "Herramienta": "prueba",
-          "Cantidad": 1,
-          "Fecha_c": "23/02/2026, 10:47:17",
-          "Fecha_f": "2026-04-04 10:47:17.957147",
-          "Estado": "Pendiente",
-          "Es_prestamo": "Activo"
-     },
-     {
-          "Id": 3,
           "Usuario": "oscar",
           "Herramienta": "pala",
-          "Cantidad": 20,
-          "Fecha_c": "23/02/2026, 10:48:16",
-          "Fecha_f": "2026-02-25 10:48:16.542075",
-          "Estado": "Activo",
-          "Es_prestamo": "Activo"
-     },
-     {
-          "Id": 4,
-          "Usuario": "oscar",
-          "Herramienta": "pala",
-          "Cantidad": 12,
-          "Fecha_c": "23/02/2026, 11:05:09",
-          "Fecha_f": "2026-02-26 11:05:09.308901",
+          "Cantidad": 5,
+          "Fecha_c": "06/03/2026, 12:17:13",
+          "Fecha_f": "2026-03-16 12:17:13.374184",
           "Estado": "Pendiente",
-          "Es_prestamo": "Activo"
+          "Es_prestamo": "Activo",
+          "Valor_prestamo": 300000
      }
 ]
-
